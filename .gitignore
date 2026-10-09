@@ -1,5 +1,8 @@
-# Rust
+# Rust build output
 /target/
+
+# Rust backup files
+**/*.rs.bk
 
 # VS Code
 .vscode/
@@ -7,13 +10,27 @@
 # Zed
 .zed/
 
-# JetBrains
+# JetBrains IDEs
 .idea/
 
 # OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Environment / secrets
+# Environment variables and secrets
 .env
 .env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Coverage output
+/coverage/
